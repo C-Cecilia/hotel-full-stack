@@ -1,0 +1,78 @@
+/* src/index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width:100%;
+}
+
+main.hotel-details-main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.hotel-details-page {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+main.loading-state {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  height: 100%;
+  text-align: center;
+}
+
+.content-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content-container.loading-state {
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  height: 100vh;
+  text-align: center;
+}
+
+.loading-message {
+  font-size: 18px;
+  color: #555;
+  height: 100vh;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-weight: bold;
+}
