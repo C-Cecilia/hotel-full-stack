@@ -1,0 +1,37 @@
+.hotel-details-page {
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.hotel-details-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hotel-details-content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.go-back-button {
+  background-color: #325673;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.go-back-button:hover {
+  background-color: #56789a;
+}
+
